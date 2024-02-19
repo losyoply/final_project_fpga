@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:24:38 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Nov 23 10:49:48 2014
+# Process ID: 2176
+# Log file: F:/FPGA/Basys3_workshop/Part_2/VGA/lab_vga1/lab_vga.runs/impl_1/vga.vdi
+# Journal file: F:/FPGA/Basys3_workshop/Part_2/VGA/lab_vga1/lab_vga.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vga.tcl -notrace

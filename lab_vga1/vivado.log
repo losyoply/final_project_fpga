@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 12 23:21:39 2021
+# Process ID: 75088
+# Current directory: C:/Users/losyo/Desktop/final_pro/lab_vga1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent62552 C:\Users\losyo\Desktop\final_pro\lab_vga1\lab_vga.xpr
+# Log file: C:/Users/losyo/Desktop/final_pro/lab_vga1/vivado.log
+# Journal file: C:/Users/losyo/Desktop/final_pro/lab_vga1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (5.1)' for IP 'clk_wiz_0' (customized with software release 2014.2) has a newer major version in the IP Catalog. * Current project part 'xc7a35tcpg236-3' and the part 'xc7a35tcpg236-1' used to customize the IP 'clk_wiz_0' do not match.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* IP definition 'Block Memory Generator (8.2)' for IP 'blk_mem_gen_0' (customized with software release 2014.2) has a newer minor version in the IP Catalog. * Current project part 'xc7a35tcpg236-3' and the part 'xc7a35tcpg236-1' used to customize the IP 'blk_mem_gen_0' do not match.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_1' is locked:
+* IP definition 'Block Memory Generator (8.2)' for IP 'blk_mem_gen_1' (customized with software release 2014.2) has a newer minor version in the IP Catalog. * Current project part 'xc7a35tcpg236-3' and the part 'xc7a35tcpg236-1' used to customize the IP 'blk_mem_gen_1' do not match.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_3' is locked:
+* IP definition 'Block Memory Generator (8.2)' for IP 'blk_mem_gen_3' (customized with software release 2014.2) has a newer minor version in the IP Catalog. * Current project part 'xc7a35tcpg236-3' and the part 'xc7a35tcpg236-1' used to customize the IP 'blk_mem_gen_3' do not match.
+update_compile_order -fileset sources_1
+reset_run clk_wiz_0_synth_1
+reset_run blk_mem_gen_0_synth_1
+reset_run blk_mem_gen_1_synth_1
+reset_run blk_mem_gen_3_synth_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+WARNING: [Project 1-577] IP run clk_wiz_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run blk_mem_gen_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run blk_mem_gen_1_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run blk_mem_gen_3_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
+
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' in run clk_wiz_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci' in run blk_mem_gen_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci' in run blk_mem_gen_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci' in run blk_mem_gen_3_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Sun Dec 12 23:22:46 2021] Launched clk_wiz_0_synth_1, blk_mem_gen_0_synth_1, blk_mem_gen_1_synth_1, blk_mem_gen_3_synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/clk_wiz_0_synth_1/runme.log
+blk_mem_gen_0_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_0_synth_1/runme.log
+blk_mem_gen_1_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_1_synth_1/runme.log
+blk_mem_gen_3_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1/runme.log
+[Sun Dec 12 23:22:47 2021] Launched synth_2...
+Run output will be captured here: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/synth_2/runme.log
+reset_run blk_mem_gen_0_synth_1
+reset_run blk_mem_gen_1_synth_1
+reset_run blk_mem_gen_3_synth_1
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci' in run blk_mem_gen_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci' in run blk_mem_gen_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci' in run blk_mem_gen_3_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci
+
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci' in run blk_mem_gen_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci' in run blk_mem_gen_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci' in run blk_mem_gen_3_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Sun Dec 12 23:24:41 2021] Launched blk_mem_gen_0_synth_1, blk_mem_gen_1_synth_1, blk_mem_gen_3_synth_1...
+Run output will be captured here:
+blk_mem_gen_0_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_0_synth_1/runme.log
+blk_mem_gen_1_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_1_synth_1/runme.log
+blk_mem_gen_3_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1/runme.log
+[Sun Dec 12 23:24:41 2021] Launched synth_2...
+Run output will be captured here: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/synth_2/runme.log
+report_ip_status -name ip_status 
+upgrade_ip -srcset blk_mem_gen_0 [get_ips  {blk_mem_gen_0 blk_mem_gen_1 blk_mem_gen_3}] -log ip_upgrade.log
+Upgrading 'blk_mem_gen_0'
+INFO: [Project 1-386] Moving file 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'.
+xit::source_ipfile: Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 1016.539 ; gain = 0.000
+INFO: [IP_Flow 19-1972] Upgraded blk_mem_gen_0 from Block Memory Generator 8.2 to Block Memory Generator 8.4
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+Upgrading 'blk_mem_gen_1'
+INFO: [Project 1-386] Moving file 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.xci' from fileset 'blk_mem_gen_1' to fileset 'sources_1'.
+INFO: [IP_Flow 19-1972] Upgraded blk_mem_gen_1 from Block Memory Generator 8.2 to Block Memory Generator 8.4
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'...
+Upgrading 'blk_mem_gen_3'
+INFO: [Project 1-386] Moving file 'C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.xci' from fileset 'blk_mem_gen_3' to fileset 'sources_1'.
+INFO: [IP_Flow 19-1972] Upgraded blk_mem_gen_3 from Block Memory Generator 8.2 to Block Memory Generator 8.4
+WARNING: [IP_Flow 19-4699] Upgrade has removed interface 'BRAM_PORTB'
+WARNING: [IP_Flow 19-3670] Detected external interface differences while upgrading 'blk_mem_gen_3'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_3'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'blk_mem_gen_3' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/losyo/Desktop/final_pro/lab_vga1/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/losyo/Desktop/final_pro/lab_vga1/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:01:09 ; elapsed = 00:01:21 . Memory (MB): peak = 1025.180 ; gain = 8.641
+export_ip_user_files -of_objects [get_ips {blk_mem_gen_0 blk_mem_gen_1 blk_mem_gen_3}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_3'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+[Sun Dec 12 23:43:25 2021] Launched blk_mem_gen_3_synth_1, blk_mem_gen_0_synth_1, blk_mem_gen_1_synth_1...
+Run output will be captured here:
+blk_mem_gen_3_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1/runme.log
+blk_mem_gen_0_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_0_synth_1/runme.log
+blk_mem_gen_1_synth_1: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_1_synth_1/runme.log
+[Sun Dec 12 23:43:25 2021] Launched synth_2...
+Run output will be captured here: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/synth_2/runme.log
+launch_runs: Time (s): cpu = 00:01:08 ; elapsed = 00:01:06 . Memory (MB): peak = 1025.180 ; gain = 0.000
+open_run synth_2 -name synth_2
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-3
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.dcp' for cell 'blk_mem_gen'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_1_0/blk_mem_gen_1.dcp' for cell 'blk_mem_gen_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.dcp' for cell 'blk_mem_gen_4'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'u_clk'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1348.258 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 584 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vga' is not ideal for floorplanning, since the cellview 'vga' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, u_clk/inst/clkin1_ibufg, from the path connected to top-level port: clk 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_clk/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_clk/inst'
+Finished Parsing XDC File [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_clk/inst'
+Parsing XDC File [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_clk/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+Finished Parsing XDC File [c:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_clk/inst'
+Parsing XDC File [C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/constrs_1/imports/file_vga/vga.xdc]
+Finished Parsing XDC File [C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.srcs/constrs_1/imports/file_vga/vga.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2048.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 2048.996 ; gain = 1003.793
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 13 01:01:41 2021...

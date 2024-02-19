@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan 13 00:24:13 2022
+# Process ID: 38448
+# Current directory: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1
+# Command line: vivado.exe -log blk_mem_gen_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_3.tcl
+# Log file: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1/blk_mem_gen_3.vds
+# Journal file: C:/Users/losyo/Desktop/final_pro/lab_vga1/lab_vga.runs/blk_mem_gen_3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source blk_mem_gen_3.tcl -notrace

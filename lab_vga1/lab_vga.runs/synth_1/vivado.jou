@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Wed Sep 28 21:57:12 2016
+# Process ID: 4980
+# Log file: D:/FPGA/MyProject/KuPao/lab_vga1/lab_vga.runs/synth_1/vga.vds
+# Journal file: D:/FPGA/MyProject/KuPao/lab_vga1/lab_vga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga.tcl

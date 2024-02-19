@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec  7 15:38:47 2021
+# Process ID: 40852
+# Current directory: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1528 C:\Users\losyo\Desktop\慌禲方?_vivadoセ\lab_vga1\lab_vga.xpr
+# Log file: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1/vivado.log
+# Journal file: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 C:/Users/losyo/Desktop/project_1 -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+add_files C:/Users/losyo/Desktop/慌禲方_vivadoセ/lab_vga1
+ERROR: [Vivado 12-172] File or Directory 'C:/Users/losyo/Desktop/慌禲方_vivadoセ/lab_vga1' does not exist
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  7 15:40:12 2021...

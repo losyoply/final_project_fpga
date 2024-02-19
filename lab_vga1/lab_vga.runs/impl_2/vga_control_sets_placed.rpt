@@ -1,0 +1,216 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jan 13 09:18:33 2022
+| Host         : LAPTOP-3TA24BIJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga_control_sets_placed.rpt
+| Design       : vga
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   138 |
+|    Minimum number of control sets                        |   138 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   563 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   138 |
+| >= 0 to < 4        |    13 |
+| >= 4 to < 6        |    12 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |    13 |
+| >= 10 to < 12      |    42 |
+| >= 12 to < 14      |    10 |
+| >= 14 to < 16      |     7 |
+| >= 16              |    38 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             154 |           71 |
+| No           | No                    | Yes                    |              73 |           35 |
+| No           | Yes                   | No                     |              20 |            6 |
+| Yes          | No                    | No                     |            1034 |          395 |
+| Yes          | No                    | Yes                    |             653 |          258 |
+| Yes          | Yes                   | No                     |             111 |           41 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------------------------------+---------------------------+------------------+----------------+--------------+
+|      Clock Signal     |                 Enable Signal                |      Set/Reset Signal     | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------+----------------------------------------------+---------------------------+------------------+----------------+--------------+
+|  zhen_reg_n_0_[12]    |                                              |                           |                1 |              1 |         1.00 |
+|  high1_reg[9]_i_2_n_0 | key_de/number                                |                           |                1 |              1 |         1.00 |
+|  u_clk/inst/clk_out1  | adfuhuonumber[14]_i_1_n_0                    | adfuhuonumber[15]_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/ps2_data_s1       |                           |                1 |              1 |         1.00 |
+|  u_clk/inst/clk_out1  | vsync_r_i_1_n_0                              | led[7]_i_1_n_0            |                1 |              1 |         1.00 |
+|  u_clk/inst/clk_out1  | hsync_r_i_1_n_0                              | led[7]_i_1_n_0            |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/ps2_clk_s1        |                           |                1 |              1 |         1.00 |
+|  u_clk/inst/clk_out1  | guaisou1                                     | guaisou1[16]_i_1_n_0      |                1 |              1 |         1.00 |
+|  u_clk/inst/clk_out1  | guaisou2                                     | guaisou2[16]_i_1_n_0      |                1 |              1 |         1.00 |
+|  num2_reg[7]_i_2_n_0  | datjian[3]_i_2_n_0                           | datjian[3]_i_1_n_0        |                1 |              1 |         1.00 |
+|  cnt_reg_n_0_[21]     | rst_n_IBUF                                   | key_de/key_reg[1]_0       |                1 |              2 |         2.00 |
+|  zhen_reg_n_0_[12]    |                                              | led[7]_i_1_n_0            |                1 |              3 |         3.00 |
+|  num2_reg[7]_i_2_n_0  | datjian[3]_i_2_n_0                           |                           |                1 |              3 |         3.00 |
+|  num2_reg[7]_i_2_n_0  | datge[3]_i_1_n_0                             |                           |                1 |              4 |         4.00 |
+|  num2_reg[7]_i_2_n_0  | datbai[3]_i_1_n_0                            |                           |                2 |              4 |         2.00 |
+|  high1_reg[9]_i_2_n_0 | key_de/jump                                  | led[7]_i_1_n_0            |                1 |              4 |         4.00 |
+|  num2_reg[7]_i_2_n_0  | datwan[3]_i_1_n_0                            |                           |                2 |              4 |         2.00 |
+|  high1_reg[9]_i_2_n_0 | datfuhuo                                     | datfuhuo[3]_i_1_n_0       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG        | count[3]_i_1_n_0                             | led[7]_i_1_n_0            |                1 |              4 |         4.00 |
+|  num2_reg[7]_i_2_n_0  | datshi[3]_i_1_n_0                            |                           |                1 |              4 |         4.00 |
+|  p_0_in__0            | rst_n_IBUF                                   |                           |                4 |              4 |         1.00 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/bits_count        |                           |                2 |              4 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | datqian[3]_i_1_n_0                           |                           |                1 |              4 |         4.00 |
+|  u_clk/inst/clk_out1  | vgaD[11]_i_1_n_0                             |                           |                3 |              5 |         1.67 |
+|  u_clk/inst/clk_out1  | vgaD[11]_i_1_n_0                             | vgaD[7]_i_1_n_0           |                1 |              5 |         5.00 |
+|  cnt_reg_n_0_[21]     | key_de/E[0]                                  | led[7]_i_1_n_0            |                3 |              6 |         2.00 |
+|  cnt_reg_n_0_[21]     | rst_n_IBUF                                   |                           |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG        | sm_db[6]_i_1_n_0                             |                           |                5 |              7 |         1.40 |
+|  num2_reg[7]_i_2_n_0  |                                              | led[7]_i_1_n_0            |                5 |              8 |         1.60 |
+|  high1_reg[9]_i_2_n_0 |                                              |                           |                6 |              8 |         1.33 |
+| ~u_clk/inst/clk_out1  | valid                                        | vgaB[11]_i_1_n_0          |                5 |              8 |         1.60 |
+|  high1_reg[9]_i_2_n_0 | number4[9]_i_2_n_0                           | number4[9]_i_1_n_0        |                3 |              8 |         2.67 |
+|  high1_reg[9]_i_2_n_0 | number5                                      | number5[7]_i_1_n_0        |                4 |              8 |         2.00 |
+|  num2_reg[7]_i_2_n_0  |                                              |                           |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/rx_finish         |                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/rx_valid          |                           |                2 |              8 |         4.00 |
+|  u_clk/inst/clk_out1  | vgaD[11]_i_1_n_0                             | vgaC[2]                   |                2 |              8 |         4.00 |
+|  u_clk/inst/clk_out1  | vgaD[11]_i_1_n_0                             | vgaE[11]_i_1_n_0          |                3 |              8 |         2.67 |
+|  num2_reg[7]_i_2_n_0  | mov1                                         |                           |                2 |              9 |         4.50 |
+|  num2_reg[7]_i_2_n_0  | mov                                          |                           |                2 |              9 |         4.50 |
+|  num2_reg[7]_i_2_n_0  | fireaway                                     | fireaway[8]_i_1_n_0       |                4 |              9 |         2.25 |
+|  num2_reg[7]_i_2_n_0  | hx1[9]_i_1_n_0                               | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | hx3[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hx5[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hx4[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hx6[9]_i_1_n_0                               | led[7]_i_1_n_0            |                7 |             10 |         1.43 |
+|  num2_reg[7]_i_2_n_0  | hy1[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hy3[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hy4[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hy2[9]_i_1_n_0                               | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  high1_reg[9]_i_2_n_0 | high1                                        |                           |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | hy6[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | hy5[9]_i_1_n_0                               | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  gwdx2_reg[9]_i_2_n_0 |                                              | Isatt1_reg_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | dx[9]_i_1_n_0                                |                           |                3 |             10 |         3.33 |
+|  gwdx2_reg[9]_i_2_n_0 |                                              | Isatt2_reg_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | dy[9]_i_1_n_0                                |                           |                3 |             10 |         3.33 |
+|  high1_reg[9]_i_2_n_0 | high[9]_i_1_n_0                              |                           |                6 |             10 |         1.67 |
+|  high1_reg[9]_i_2_n_0 | numberadd[9]_i_2_n_0                         | numberadd[9]_i_1_n_0      |                2 |             10 |         5.00 |
+|  high1_reg[9]_i_2_n_0 | numberdead[9]_i_2_n_0                        | numberdead[9]_i_1_n_0     |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | x2                                           | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | x1                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG        | hun                                          | led[7]_i_1_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | x3                                           | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | x4                                           | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | x5                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | x6                                           | led[7]_i_1_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | y1                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | y2                                           | led[7]_i_1_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | hx2[9]_i_1_n_0                               | led[7]_i_1_n_0            |                7 |             10 |         1.43 |
+|  num2_reg[7]_i_2_n_0  | y3                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | y4                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | y5                                           | led[7]_i_1_n_0            |                3 |             10 |         3.33 |
+|  num2_reg[7]_i_2_n_0  | y6                                           | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | gx1[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  u_clk/inst/clk_out1  | y_cnt[9]_i_1_n_0                             | led[7]_i_1_n_0            |                6 |             10 |         1.67 |
+|  num2_reg[7]_i_2_n_0  | gx2[9]_i_1_n_0                               | led[7]_i_1_n_0            |                4 |             10 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | gx3[9]_i_1_n_0                               | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+|  num2_reg[7]_i_2_n_0  | gx4[9]_i_1_n_0                               | led[7]_i_1_n_0            |                5 |             10 |         2.00 |
+| ~u_clk/inst/clk_out1  | Isground[11]_i_1_n_0                         |                           |                6 |             10 |         1.67 |
+|  high1_reg[9]_i_2_n_0 | key_de/number                                | key_de/mo_reg             |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG        | key_de/inst/Ps2Interface_i/frame[10]_i_1_n_0 |                           |                2 |             11 |         5.50 |
+| ~u_clk/inst/clk_out1  | vga_rgb                                      |                           |                8 |             11 |         1.38 |
+|  u_clk/inst/clk_out1  | adhuo1                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | adhuo2                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | adhuo3                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | adhuo4                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | adhuo5                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | adhuo6                                       | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  high1_reg[9]_i_2_n_0 | key_de/number2                               |                           |                3 |             12 |         4.00 |
+|  zhen_reg_n_0_[8]     |                                              | led[7]_i_1_n_0            |                3 |             12 |         4.00 |
+|  u_clk/inst/clk_out1  | addre                                        |                           |                5 |             12 |         2.40 |
+|  p_0_in__0            |                                              | led[7]_i_1_n_0            |                6 |             13 |         2.17 |
+|  num2_reg[7]_i_2_n_0  | m2                                           | led[7]_i_1_n_0            |                6 |             15 |         2.50 |
+|  num2_reg[7]_i_2_n_0  | m1                                           | led[7]_i_1_n_0            |                8 |             15 |         1.88 |
+|  num2_reg[7]_i_2_n_0  | m3                                           | led[7]_i_1_n_0            |                8 |             15 |         1.88 |
+|  num2_reg[7]_i_2_n_0  | m4                                           | led[7]_i_1_n_0            |                6 |             15 |         2.50 |
+|  u_clk/inst/clk_out1  | zhen[0]_i_1_n_0                              |                           |                4 |             15 |         3.75 |
+|  u_clk/inst/clk_out1  |                                              | led[7]_i_1_n_0            |               14 |             15 |         1.07 |
+|  u_clk/inst/clk_out1  | adfuhuonumber[14]_i_1_n_0                    |                           |                5 |             15 |         3.00 |
+|  u_clk/inst/clk_out1  | adjuli[0]_i_1_n_0                            |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | adqian[0]_i_1_n_0                            |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | admi[0]_i_1_n_0                              |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | adfuhuo[0]_i_1_n_0                           |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | adshi[0]_i_1_n_0                             |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | adwan[0]_i_1_n_0                             |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | fire1[15]_i_2_n_0                            | fire1[15]_i_1_n_0         |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | g11                                          |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | g22                                          |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | g33                                          |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | g44                                          |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | guaisou1                                     |                           |               11 |             16 |         1.45 |
+|  u_clk/inst/clk_out1  | adbai[0]_i_1_n_0                             |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | guaisou2                                     |                           |                6 |             16 |         2.67 |
+|  u_clk/inst/clk_out1  | addrc[15]_i_1_n_0                            |                           |                7 |             16 |         2.29 |
+| ~u_clk/inst/clk_out1  |                                              |                           |               11 |             16 |         1.45 |
+|  u_clk/inst/clk_out1  | addrd[15]_i_1_n_0                            |                           |               10 |             16 |         1.60 |
+|  u_clk/inst/clk_out1  | adge[0]_i_1_n_0                              |                           |                4 |             16 |         4.00 |
+|  u_clk/inst/clk_out1  | per                                          | led[7]_i_1_n_0            |                6 |             17 |         2.83 |
+|  u_clk/inst/clk_out1  | addr[16]_i_1_n_0                             | led[7]_i_1_n_0            |               10 |             17 |         1.70 |
+|  u_clk/inst/clk_out1  | star2[16]_i_1_n_0                            | led[7]_i_1_n_0            |                7 |             17 |         2.43 |
+|  u_clk/inst/clk_out1  | star3[16]_i_1_n_0                            | led[7]_i_1_n_0            |                6 |             17 |         2.83 |
+|  u_clk/inst/clk_out1  | star4[16]_i_1_n_0                            | led[7]_i_1_n_0            |                8 |             17 |         2.12 |
+|  u_clk/inst/clk_out1  | adw1[0]_i_1_n_0                              | led[7]_i_1_n_0            |                5 |             17 |         3.40 |
+|  u_clk/inst/clk_out1  | adw2[0]_i_1_n_0                              | led[7]_i_1_n_0            |                5 |             17 |         3.40 |
+|  u_clk/inst/clk_out1  | adw3[0]_i_1_n_0                              | led[7]_i_1_n_0            |                5 |             17 |         3.40 |
+|  u_clk/inst/clk_out1  | addrb                                        |                           |                7 |             17 |         2.43 |
+|  u_clk/inst/clk_out1  | star6[16]_i_1_n_0                            | led[7]_i_1_n_0            |                6 |             17 |         2.83 |
+|  clk_IBUF_BUFG        | key_de/inst/key                              |                           |                8 |             17 |         2.12 |
+|  u_clk/inst/clk_out1  | star5[16]_i_1_n_0                            | led[7]_i_1_n_0            |                6 |             17 |         2.83 |
+|  u_clk/inst/clk_out1  | star1[16]_i_1_n_0                            | led[7]_i_1_n_0            |                5 |             17 |         3.40 |
+|  clk_IBUF_BUFG        | shift_reg[17]_i_1_n_0                        | led[7]_i_1_n_0            |                4 |             18 |         4.50 |
+|  gwdx2_reg[9]_i_2_n_0 | gwy1                                         |                           |                6 |             20 |         3.33 |
+|  u_clk/inst/clk_out1  |                                              |                           |               17 |             20 |         1.18 |
+|  clk_IBUF_BUFG        |                                              | led[7]_i_1_n_0            |                6 |             22 |         3.67 |
+|  gwdx2_reg[9]_i_2_n_0 |                                              |                           |                8 |             40 |         5.00 |
+|  clk_IBUF_BUFG        |                                              |                           |               23 |             61 |         2.65 |
+|  clk_IBUF_BUFG        | key_de/op/pulse_been_ready                   |                           |              209 |            512 |         2.45 |
++-----------------------+----------------------------------------------+---------------------------+------------------+----------------+--------------+
+
+

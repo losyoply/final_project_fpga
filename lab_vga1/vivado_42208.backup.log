@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec  7 15:35:08 2021
+# Process ID: 42208
+# Current directory: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34020 C:\Users\losyo\Desktop\慌禲方?_vivadoセ\lab_vga1\lab_vga.xpr
+# Log file: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1/vivado.log
+# Journal file: C:/Users/losyo/Desktop/慌禲方?_vivadoセ/lab_vga1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  7 15:35:23 2021...
